@@ -1,0 +1,63 @@
+.products {
+    width: 100%;
+    // border: 1px solid red;
+    display: flex;
+}
+
+.fabric {
+    // border: 1px solid red;
+    padding: 0 1rem;
+    width: 20%;
+    // height: auto;
+    text-align: start;
+    box-shadow: 1px;
+
+    select {
+        width: 15rem;
+        font-weight: bold;
+        padding: 0.5rem;
+        margin: 0.7rem 0;
+
+    }
+
+    div {
+
+        border: 1px solid aliceblue;
+        box-shadow: 1px 1px 2px 2px whitesmoke;
+        padding: 0.5rem;
+
+        aside,
+        p {
+            padding: 1rem 0;
+            border-bottom: 1px solid black;
+        }
+    }
+}
+
+.bestseller:hover {
+    transform: scale(1.04);
+    transition-duration: 1s;
+}
+
+.bestsellerContainer {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    .bestsellerimg {
+        width: 75%;
+        height: 30vh;
+    }
+}
+
+.bestseller {
+    width: 80%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    // border: 1px solid black;
+    box-shadow: 1px 1px 2px 2px gray;
+}

@@ -1,0 +1,32 @@
+.con {
+    display: flex;
+    width: auto;
+    overflow: hidden;
+    height: 15rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 2rem;
+}
+
+.con1 {
+    // border: 1px solid red;
+    width: 94%;
+    height: 15rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.right {
+    font-size: 2rem;
+}
+img{
+    transition: 1s;
+}

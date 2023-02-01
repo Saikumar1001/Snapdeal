@@ -1,0 +1,36 @@
+.con {
+    display: flex;
+    width: auto;
+    // overflow: hidden;
+    height: 15rem;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 2rem;
+}
+
+.con1 {
+    display: flex;
+    // border: 1px solid red;
+    width: 88%;
+    gap: 2rem;
+    overflow: hidden;
+    height: 15rem;
+    transition: 1s;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.right {
+    font-size: 2rem;
+}
+img{
+    transition: 1s;
+}
